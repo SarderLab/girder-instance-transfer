@@ -1,1 +1,1 @@
-girder-client>=5.0,<6.0
+girder-client==5.0.12
