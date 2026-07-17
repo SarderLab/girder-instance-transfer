@@ -275,13 +275,13 @@ The script requires Girder resource IDs, not complete browser URLs.
 For example, a browser URL may contain a folder ID such as:
 
 ```text
-6a21a054b16a6ccf95f43ba7
+6a21a054b16a6bbe95f43ba7
 ```
 
 Use only the ID value as:
 
 ```bash
---source-folder-id "6a21a054b16a6ccf95f43ba7"
+--source-folder-id "6a21a054b16a6bbe95f43ba7"
 ```
 
 The destination parent ID must refer to the folder, collection, or user under which the transferred folder should be created.
