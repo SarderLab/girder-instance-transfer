@@ -1,8 +1,9 @@
-python -u girder_transfer.py \
+python -u ~/girder_transfer.py \
   --source-api "https://parashurama.rc.ufl.edu/api/v1" \
   --destination-api "https://athena.rc.ufl.edu/api/v1" \
-  --source-api-key "$PARASHURAMA_API_KEY" \
-  --destination-api-key "$ATHENA_API_KEY" \
-  --source-folder-id "SOURCE_FOLDER_ID" \
-  --destination-parent-id "DESTINATION_PARENT_ID" \
-  --destination-parent-type folder
+  --source-folder-id "PARASHURAMA_SOURCE_FOLDER_ID" \
+  --destination-parent-id "ATHENA_DESTINATION_PARENT_ID" \
+  --destination-parent-type folder \
+  --source-api-key "PARASHURAMA_API_KEY" \
+  --destination-api-key "ATHENA_API_KEY" \
+  
