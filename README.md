@@ -1,6 +1,6 @@
 # Girder Instance Transfer
 
-A reusable Python utility for transferring selected folders, items, files, metadata, and descriptions between Girder instances.
+A reusable Python utility for transferring selected folders, items, files, annotations, metadata, and descriptions between Girder instances.
 
 The tool currently supports transfers such as:
 
